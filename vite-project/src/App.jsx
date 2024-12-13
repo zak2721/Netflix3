@@ -1,14 +1,13 @@
-import { useState } from 'react'
-
 import './App.css'
+import Home from './pages/Home/Home';
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-      <h1> the vite document is the one who tawhat the world</h1>
-    </>
+    <div className='app'>
+      <Home/>
+    </div>
   )
 }
 

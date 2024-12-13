@@ -1,0 +1,42 @@
+.header-outer-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    /*background-color: rgb(148, 135, 135);*/
+    /*background-color: transparent*/
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+}
+.nav_black{
+    background-color: rgb(237, 201, 201);
+}
+.header-container{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    cursor: pointer;
+}
+.header-left ul{
+     width: 140%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     list-style: none;
+     cursor: pointer;
+     background-color:black;
+}
+.header-right ul{
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    background-color:black;  
+}
