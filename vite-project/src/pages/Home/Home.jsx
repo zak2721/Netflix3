@@ -2,13 +2,17 @@ import React from 'react'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Footer/Footer'
 import Banner from '../../Components/Banner/Banner'
+import Rowlist from '../../Components/Rows/Rowlist/Rowlist '
+
+
 const Home = () => {
   return (
-    <div className='zeki'>
+    <>
       <Header/>
       <Banner/>
+      <Rowlist/>
       <Footer/>
-    </div>
+    </>
   )
 }
 
