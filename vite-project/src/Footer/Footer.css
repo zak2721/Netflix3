@@ -6,10 +6,10 @@
 }
 .footer-inner-container{
     width: 60%;
-    background-color: red;
+    
 }
 .footer-icons{
-    background-color: blue;
+    
     width: 12%;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 12vh;
-    background-color: blue;
+    
 
 }
 .footer-data ul li{
