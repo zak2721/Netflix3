@@ -1,7 +1,7 @@
 .row__poster{
     width: 100%;
     object-fit: contain;
-    max-height: 100px;
+    max-height: 90px;
     transition: transform 450ms;
     margin-right: 10px;
 }
@@ -9,7 +9,7 @@
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 60px;
 }
 .row__posters::-webkit-scrollbar{
     display: none;
