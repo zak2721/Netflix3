@@ -3,7 +3,7 @@ import './Row.css'
 import axios from '../../../Utils/axios';
 import movieTrailer from 'movie-trailer';
 import YouTube from 'react-youtube';
-import Rowlist from '../Rowlist/Rowlist';
+
 
 const Row  = ({title, fetchUrl, isLargeRow  }) => {
   const [movies, setMovie] = useState ([]);
